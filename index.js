@@ -62,6 +62,10 @@ document.addEventListener('DOMContentLoaded', event => {
                         
                     })
                 }
+
+                else {
+                    document.getElementById('form1').classList.add("hidden");
+                }
              })
 
              //this returns the person that was assigned to you for this week
